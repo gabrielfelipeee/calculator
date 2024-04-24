@@ -1,0 +1,40 @@
+@import '../../styles/themes.scss';
+
+.box-theme {
+    width: 70px;
+
+    ol {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        color: var(--text-screen);
+        font-size: .8rem;
+        margin: 0 10px;
+    }
+
+    .slide-button {
+        background-color: var(--keypad_toggle-bg);
+        width: 100%;
+        height: 25px;
+        border-radius: 100px;
+        position: relative;
+        cursor: pointer;
+
+        .circle-button {
+            width: 15px;
+            height: 15px;
+            background-color: var(--toggle-circle_keyEqual-bg);
+            border-radius: 50%;
+            position: absolute;
+            top: 5px;
+            left: 6px;
+        }
+        .circle-button-theme2 {
+            left: 27px;
+        }
+        .circle-button-theme3 {
+            left: 50px;
+        }
+    }
+}

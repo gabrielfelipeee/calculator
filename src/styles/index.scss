@@ -1,0 +1,15 @@
+@import './themes.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: var(--main-bg);
+}
