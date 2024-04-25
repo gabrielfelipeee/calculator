@@ -21,7 +21,7 @@ const useCalculator = () => {
             } else {
                 numsToOperation.push(screen[i]);
             }
-            if (typeof screen[i - 1] === "string" && typeof screen[i] === "string") {
+            if (typeof screen[i - 1] === "string" && typeof screen[i] === "string" || typeof screen[0] == "string") {
                 setScreen(screen.slice(0, -1));
             }
         }
