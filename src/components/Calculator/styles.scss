@@ -1,6 +1,4 @@
-@import '../../styles/themes.scss';
-
-
+@use '../../styles/themes.scss';
 
 @keyframes pulse {
 
@@ -13,7 +11,6 @@
         opacity: .5;
     }
 }
-
 
 .container-calculator {
     display: flex;

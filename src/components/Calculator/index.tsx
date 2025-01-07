@@ -1,4 +1,4 @@
-import useCalculator from '../../hooks/useCalculatorContext';
+import { useCalculator } from '../../context/CalculatorContext';
 import Theme from '../Theme';
 import './styles.scss';
 
